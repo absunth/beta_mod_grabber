@@ -44,8 +44,7 @@ powershell -Command "(New-Object Net.WebClient).DownloadFile('https://b2.mcarchi
 goto exit_minimap
 
 :download_hmi
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://download1327.mediafire.com/7i96tz5xxasg/x8w2qck4ktq3fsl/b1.7.3+HowManyItems+v4.2.0.zip', 'b1.7.3-mods/add-to-mods/how_many_items_4.2.0.zip')"
-:: link above is from mcarchive's "official indirect download" https://mcarchive.net/mods/howmanyitems?gvsn=b1.7.3
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/rekadoodle/HowManyItems/releases/download/v4.2/b1.7.3.HowManyItems.v4.2.0.zip', 'b1.7.3-mods/add-to-mods/how_many_items_4.2.0.zip')"
 goto exit_hmi
 
 :download_bitdepthfix
